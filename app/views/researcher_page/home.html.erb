@@ -1,0 +1,14 @@
+<h1>RESEARCHER Homepage</h1>
+<br>
+<h1>Announcements</h1>
+
+<% @announcements.each do |announcement| %>
+          
+    <h3><%= announcement.title %> <br> </h3>
+    <%= announcement.body %> <br>
+    
+    <br>
+    <br>
+
+  
+<% end %>
